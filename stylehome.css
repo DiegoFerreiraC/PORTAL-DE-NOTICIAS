@@ -46,8 +46,15 @@
     text-decoration: underline;
     color: red;
 }
+.logo {
+    display: flex; 
+    align-items: center;
+}
+.logo img {
+    width: 100px ;
+    height: auto;
 
-
+}
 .noticias1 {
     display: flex;
     width: 100%;

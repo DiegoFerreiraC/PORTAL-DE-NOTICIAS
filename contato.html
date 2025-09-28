@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styleesporte.css">
-    <title>Esporte</title>
+    <link rel="stylesheet" href="stylecontato.css">
+    <title>Contato</title>
 </head>
 
 <body>
@@ -26,36 +26,35 @@
         </div>
 
     </header>
-
     <section>
         <div class="centro">
-            <div class="noticas-esporte">
-                <div>
-                    <img src="imgs/nsecundaria1.webp" alt="">
-                    <h1>Em jogo de oito gols no 2º tempo, Juventus e Dortmund empatam na Champions</h1>
-                </div>
-                <div>
-                    <img src="imgs/nsecundaria7.webp" alt="">
-                    <h1>Flamengo, Cruzeiro e Palmeiras na briga: as chances de título do Brasileiro</h1>
-                </div>
-                <div>
-                    <img src="imgs/nsecundaria8.webp" alt="">
-                    <h1>Mbappé decide com dois pênaltis, e Real Madrid vence Marseille na Champions</h1>
-                </div>
-                <div>
-                    <img src="imgs/nsecundaria10.webp" alt="">
-                    <h1>Saiba como a guerra de Israel em Gaza afeta o mundo dos esportes</h1>
-                </div>
-                <div>
-                    <img src="imgs/nprincipal4.webp" alt="">
-                    <h1>Ancelotti é direto sobre Neymar na Seleção: "Ele precisa estar 100%"</h1>
-                </div>
-            </div>
+           
 
+            <!-- Formulário apenas em HTML -->
+            <form action="#" method="post" aria-label="Formulário de contato">
+                <h1>Contato</h1>
+                <h2>Sua opinião, comentário e sugestões são sempre bem vindos. Para enviá-los, use o formulário abaixo. Tentaremos responder o mais rapidamente possível. </h2>
+                <div>
+                    <label for="nome">Nome</label><br />
+                    <input type="text" id="nome" name="nome"  required />
+                </div>
+
+                <div>
+                    <label for="email">Email</label><br />
+                    <input type="email" id="email" name="email"  required />
+                </div>
+
+                <div>
+                    <label for="comentario">Comentário</label><br />
+                    <textarea id="comentario" name="comentario" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </div>
     </section>
-
-
 
     <footer>
         <div id="footer_content">

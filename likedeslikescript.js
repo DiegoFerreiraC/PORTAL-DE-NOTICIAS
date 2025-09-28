@@ -2,9 +2,11 @@
 document.addEventListener("DOMContentLoaded", () => {
     const noticia = document.querySelector('.like-dislike');
     const noticiaId = noticia.dataset.id;
+
     const likeBtn = noticia.querySelector('.like-btn');
-    const dislikeBtn = noticia.querySelector('.dislike-btn');
     const likeCount = noticia.querySelector('.like-count');
+    
+    const dislikeBtn = noticia.querySelector('.dislike-btn');
     const dislikeCount = noticia.querySelector('.dislike-count');
 
     // Recupera do localStorage
