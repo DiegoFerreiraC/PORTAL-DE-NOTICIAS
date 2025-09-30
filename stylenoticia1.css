@@ -287,6 +287,24 @@ footer {
 .like-dislike i {
     font-size: 18px;
 }
+
+.like-dislike button.comment-btn {
+    background-color: var(--color-neutral-10);
+    color: var(--color-neutral-40);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.like-dislike button.comment-btn :hover{
+    color: red;
+}
+
 @media screen and (max-width: 480px) {
     .noticiaprincipal {
         padding: 15px;
