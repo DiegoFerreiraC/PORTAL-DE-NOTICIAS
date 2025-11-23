@@ -157,14 +157,10 @@
 
             <div id="footer_contatenos">
                 <h3>Envie-nos</h3>
-
-                <p>
-                    Envie para nós alguma notícia ou problemática a ser tradada perto de você.
-                </p>
-
+                <p>Envie para nós alguma notícia ou problemática a ser tratada perto de você.</p>
                 <div id="input_group">
-                    <input type="email" id="email">
-                    <button>
+                    <input type="email" id="email" />
+                    <button id="loginButton">
                         <i class="fa-regular fa-envelope"></i>
                     </button>
                 </div>
@@ -178,5 +174,9 @@
     </footer>
 
 </body>
-
+<script>
+  document.getElementById("loginButton").onclick = function() {
+    window.location.href = `http://localhost:5173/`;
+  };
+</script>
 </html>

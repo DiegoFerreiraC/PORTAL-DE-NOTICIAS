@@ -142,4 +142,14 @@
     <script src="likedeslikescript.js"></script>
 </body>
 
+<script>
+    const commentButtons = document.querySelectorAll(".comment-btn");
+
+    commentButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            window.location.href = "http://localhost:5173";
+        });
+    });
+</script>
+
 </html>

@@ -1,9 +1,6 @@
 document.getElementById('search').addEventListener('input', function() {
     let searchTerm = this.value.toLowerCase();
-    
-    
     let newsItems = document.querySelectorAll('.outra-noticia-single2');
-    
     
     newsItems.forEach(function(item) {
 
